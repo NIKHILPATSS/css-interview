@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Nav{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  margin: 10px 100px;
+  border: 1px solid blue;
 }
 
-.App-link {
-  color: #61dafb;
+.Body{
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: auto auto auto auto;
+  margin: 20px 100px;
+  padding: 10px;
+  border: 1px solid blue;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.body-item{
+  background-color: blue;
+  height: 80vh
+}
+
+.round{
+  border: 10px solid blue;
+  background-color: blue;
+  border-radius: 100px;
+  width: 5px;
+  margin: 10px 10px;
+}
+
+.menu{
+  display: flex;
+  margin: 10px 10px;
+  justify-content: space-around;
+}
+
+.menu-item{
+  margin: 0 10px;
+  border: 10px solid blue;
+  background-color: blue;
+}
+
+@media screen and (max-width: 1200px) {
+  .Body{
+    grid-template-columns: auto auto;
   }
-  to {
-    transform: rotate(360deg);
+  .body-item{
+    background-color: blue;
+    height: 40vh
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .Body{
+    grid-template-columns: auto;
+  }
+  .body-item{
+    background-color: blue;
+    height: 20vh
+  }
+
+  .menu{
+    display: none;
   }
 }
