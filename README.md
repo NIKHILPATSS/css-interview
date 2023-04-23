@@ -6,7 +6,7 @@ https://s9.gifyu.com/images/CSSQuestion.gif
 
 1 --> Clone the repo\
 2 --> npm i\
-3 -->\
+3 -->
 ### `npm start`
 
 Runs the app in the development mode.\
