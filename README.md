@@ -4,9 +4,9 @@ https://s9.gifyu.com/images/CSSQuestion.gif
 
 # Solution 
 
-1 --> Clone the repo
-2 --> npm i
-3 -->
+1 --> Clone the repo\
+2 --> npm i\
+3 -->\
 ### `npm start`
 
 Runs the app in the development mode.\
